@@ -1,0 +1,56 @@
+#######################################
+# GENERAL
+#######################################
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+
+#######################################
+# NODE / REACT
+#######################################
+node_modules/
+build/
+dist/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# npm / yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#######################################
+# SPRING BOOT
+#######################################
+target/
+*.jar
+*.war
+*.ear
+
+#######################################
+# APPLICATION CONFIG (DO NOT PUSH)
+#######################################
+backend/src/main/resources/application.yaml
+src/main/resources/application.yaml
+src/main/resources/application.yml
+src/main/resources/application-*.yaml
+src/main/resources/application-*.yml
+
+#######################################
+# IDE
+#######################################
+.idea/
+*.iml
+.vscode/
+
+#######################################
+# OS
+#######################################
+*.classpath
+*.project
+*.settings/
